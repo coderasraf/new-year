@@ -1,0 +1,180 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: 'Work Sans', sans-serif;
+}
+.page-width{
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+@media(min-width:1200px){
+    .page-width{
+        padding: 0 20px;
+    }
+}
+
+@media(max-width:1200px){
+    .page-width{
+        padding: 0 10px;
+    }
+}
+
+ul{
+    margin: 0;
+    pad: 0;
+    list-style: none;
+}
+
+/* ==== Main hero section css ===== */
+.main-hero-section{
+    background-image: url('../images/banner/abstract-bg.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    height: 100vh;
+}
+.hero-main-inner {
+    display: flex;
+    align-items: center;
+    height: 100%;
+}
+.hero-main-content {
+    max-width: 500px;
+}
+
+.hero-main-inner {
+    display: flex;
+    align-items: center;
+    height: 100%;
+}
+
+.hero-main-content h2 {
+    font-size: 65px;
+    line-height: 67px;
+    margin-bottom: 20px;
+}
+
+.hero-main-content p {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    margin-bottom: 20px;
+}
+
+.btn {
+    padding: 10px 30px;
+    background: #F15B22;
+    text-decoration: none;
+    color: #fff;
+    font-weight: 500;
+    margin-top: 20px;
+    display: inline-block;
+    border-radius: 5px;
+}
+
+/* featured content section css */
+.featured-section-inner {
+    display: flex;
+    align-items: center;
+}
+
+.featured-section-inner div {
+    flex: 1;
+}
+
+section.featured-content-section {
+    height: 800px;
+    display: flex;
+    align-items: center;
+    padding: 50px 0;
+}
+
+.featured-main-content h2 {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 47px;
+    color: #151414;
+    margin-bottom: 20px;
+}
+
+.featured-main-content p {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    color: #444343;
+    margin-bottom: 13px;
+}
+
+.featured-main-content {
+    padding-left: 50px;
+}
+
+ul.featured-items li {
+    display: flex;
+    align-items: center;
+    margin: 3px 0;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    color: #444343;
+}
+
+ul.featured-items li img {
+    margin-right: 5px;
+}
+
+/* My plans css code */
+.main-plans-wrapper {
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(250px, 1fr));
+}
+
+.my-plan-section {
+    padding: 70px 0;
+    text-align: center;
+}
+
+.section-title {
+    margin-bottom: 60px;
+}
+
+.section-title h1 {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 47px;
+    color: #151414;
+}
+
+.plan-icon img {
+    height: 92px;
+    width: 92px;
+    object-fit: contain;
+    margin-bottom: 15px;
+}
+
+.single-plan-item h3 {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 35px;
+    text-align: center;
+    color: #151414;
+    margin-bottom: 10px;
+}
+
+.single-plan-item p {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 25px;
+    line-height: 29px;
+    text-align: center;
+    color: #737272;
+}
